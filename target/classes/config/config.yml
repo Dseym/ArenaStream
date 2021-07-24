@@ -1,0 +1,12 @@
+material_seating: "COBBLESTONE_STAIRS"
+material_arena: "REDSTONE_BLOCK"
+material_spawn: "EMERALD_BLOCK"
+material_banner: "COAL_BLOCK"
+
+distance_from_spawn_for_tp: 11
+
+time_is_online: 4 # mins
+time_start_in: 30 # secs
+time_stop_in: 16 # mins
+
+debug_mode: false

@@ -1,0 +1,13 @@
+cost_boss: 1500
+
+skill:
+   period: 15 # secs
+   abilities: # ENUM_ABILITY:lvl
+   # There are 5 abilities and you can turn them off just by commenting out
+   - "POISON_ARROW:2" # max level 4
+   - "REGENERATION:10" # max level 20
+   - "HOMING_ARROW:2"
+   - "FAST_ARCHERY:5" # max level 10
+   - "SPAWN_ASSISTANT:1"
+   effects:
+   - "SPEED:7:3" # ENUM_EFFECT:duraction_in_secs:lvl

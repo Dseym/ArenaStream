@@ -1,0 +1,8 @@
+name: ArenaStream
+version: 1.0
+main: ru.dseymo.arenastream.ArenaStream
+depend: [WorldEdit]
+commands:
+  youtube: 
+  arena: 
+  reloadarena: 

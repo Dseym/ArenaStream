@@ -1,0 +1,15 @@
+# Message can be empty or you can remove the message line altogether
+
+killmobs:
+   class_path: "ru.dseymo.arenastream.viewer.challenge.list.KillMobsChallenge"
+   cost: 80
+   duration: 25 # secs
+   aliases:
+   - "killmobs"
+   - "мобы"
+   - "0"
+   message: "%viewer% is a challenge to you: Kill all the mobs in 30 seconds!"
+
+
+
+

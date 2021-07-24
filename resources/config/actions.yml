@@ -1,0 +1,178 @@
+# There are actions that are built into the plugin itself, but you can add your own!
+# Message can be empty or you can remove the message line altogether
+# can_times_execute - a parameter that allows this action to be called multiple times by multiple viewers
+#
+# mycmd:
+#    cost: 100
+#    aliases:
+#    - "cmd"
+#    - "test"
+#    message: "%viewer% fired a fireball!"
+#    can_times_execute: false
+#    cmd:
+#    - "give %player% STONE 1"
+
+paralysis:
+   cost: 45
+   aliases:
+   - "paralysis"
+   - "паралич"
+   - "0"
+   message: "%viewer% has imposed paralysis!"
+   can_times_execute: false
+   cmds: []
+
+fireball:
+   cost: 65
+   aliases:
+   - "fireball"
+   - "фаербол"
+   - "1"
+   message: "%viewer% fired a fireball!"
+   can_times_execute: false
+   cmds: []
+   
+arena:
+   cost: 40
+   aliases:
+   - "arena"
+   - "арена"
+   - "войти"
+   - "2"
+   message: "%viewer% has entered the arena!"
+   can_times_execute: false
+   cmds: []
+
+meteor:
+   cost: 70
+   aliases:
+   - "meteor"
+   - "метеор"
+   - "3"
+   message: "%viewer% has summoned a meteor!"
+   can_times_execute: false
+   cmds: []
+
+floorlava:
+   cost: 55
+   aliases:
+   - "floorlava"
+   - "лава"
+   - "lava"
+   - "поллава"
+   - "4"
+   message: "%viewer% made the floor - lava"
+   can_times_execute: false
+   cmds: []
+
+zombie:
+   cost: 30
+   aliases:
+   - "zombie"
+   - "зомби"
+   - "5"
+   message: "%viewer% spawned a zombie!"
+   can_times_execute: true
+   cmds: []
+
+skeleton:
+   cost: 35
+   aliases:
+   - "skeleton"
+   - "скелет"
+   - "6"
+   message: "%viewer% spawned a skeleton!"
+   can_times_execute: true
+   cmds: []
+
+freeze:
+   cost: 30
+   aliases:
+   - "freeze"
+   - "фриз"
+   - "холод"
+   - "7"
+   message: "%viewer% froze everyone!"
+   can_times_execute: false
+   cmds: []
+
+pumpkin:
+   cost: 25
+   aliases:
+   - "pumpkin"
+   - "тыква"
+   - "8"
+   message: "%viewer% put on a pumpkin!"
+   can_times_execute: false
+   cmds: []
+
+upgrade:
+   cost: 90
+   aliases:
+   - "upgrade"
+   - "ап"
+   - "up"
+   - "апгрейд"
+   - "улучшить"
+   - "9"
+   message: "%viewer% has upgraded himself!"
+   can_times_execute: true
+   cmds: []
+
+snowball:
+   cost: 5
+   aliases:
+   - "snowball"
+   - "снежок"
+   - "10"
+   message: ""
+   can_times_execute: true
+   cmds: []
+
+ufo:
+   cost: 100
+   aliases:
+   - "ufo"
+   - "нло"
+   - "тарелка"
+   - "11"
+   message: "%viewer% summoned a UFO!"
+   can_times_execute: false
+   cmds: []
+
+cthulhu:
+   cost: 100
+   aliases:
+   - "cthulhu"
+   - "ктулху"
+   - "ктулх"
+   - "12"
+   message: "%viewer% summoned a Cthulhu!"
+   can_times_execute: false
+   cmds: []
+
+addtime:
+   cost: 120
+   aliases:
+   - "addtime"
+   - "time"
+   - "время"
+   - "добавитьвремя"
+   - "13"
+   message: "%viewer% extended the suffering for a minute!"
+   can_times_execute: true
+   cmds: []
+
+arrowrain:
+   cost: 25
+   aliases:
+   - "arrowrain"
+   - "arrows"
+   - "стрелы"
+   - "14"
+   message: "%viewer% has caused a rain of arrows!"
+   can_times_execute: true
+   cmds: []
+
+
+
