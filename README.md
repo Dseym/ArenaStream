@@ -35,8 +35,8 @@ For free usage.
 
 ## Компиляция
 1. Скачайте исходный код и загрузите его, например, в Eclipse.
-2. Добавьте внешний JAR: [Server Core] (https://getbukkit.org/download/craftbukkit) 1.8+.
-3. Добавьте внешний JAR: [WorldEdit] (https://dev.bukkit.org/projects/worldedit/files).
+2. Добавьте внешний JAR: [Server Core](https://getbukkit.org/download/craftbukkit) 1.8+.
+3. Добавьте внешний JAR: [WorldEdit](https://dev.bukkit.org/projects/worldedit/files).
 4. Обновите Maven.
 5. Run As -> Maven install
 
