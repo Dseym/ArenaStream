@@ -9,8 +9,8 @@ Minecraft Mini-Game with YouTube viewers. / Мини-Игра в майнкра�
 1. Download the source code and upload it to Eclipse for example.
 2. Add External JAR: [Server Core](https://getbukkit.org/download/craftbukkit) 1.8+.
 3. Add External JAR: [WorldEdit](https://dev.bukkit.org/projects/worldedit/files).
-4. Update Maven
-5. Run As -> Maven install
+4. Update Maven.
+5. Run As -> Maven install.
 
 ## Commands
 ```
@@ -38,7 +38,7 @@ For free usage.
 2. Добавьте внешний JAR: [Server Core](https://getbukkit.org/download/craftbukkit) 1.8+.
 3. Добавьте внешний JAR: [WorldEdit](https://dev.bukkit.org/projects/worldedit/files).
 4. Обновите Maven.
-5. Run As -> Maven install
+5. Run As -> Maven install.
 
 ## Команды
 ```
